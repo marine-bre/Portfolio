@@ -1,3 +1,10 @@
+window.addEventListener("scroll", preventMotion, false);
+function preventMotion(event)
+{
+    window.scrollTo(0, 0);
+    event.preventDefault();
+    event.stopPropagation();
+}
 //center circle animation
 
 const circle = document.getElementsByClassName('circle')[0]

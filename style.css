@@ -325,6 +325,10 @@ ul {
   }
 }
 
+html {
+  overflow: hidden;
+}
+
 .site {
   overflow: hidden;
 }

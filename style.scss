@@ -4,6 +4,10 @@
 @import "_projects.scss";
 @import "_mobile.scss";
 
+html{
+  overflow:hidden;
+}
+
 .site {
   overflow: hidden;
 }
