@@ -1,0 +1,81 @@
+#projects-page-section {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects-page-title {
+  fill: var(--customYellowShadow);
+}
+
+.projects-color {
+  color: var(--customYellowShadow);
+}
+.projects-color:hover {
+  color: var(--customDarkYellowShadow);
+  transform: scale(0.8);
+}
+
+.projects-background-color {
+  background-color: var(--customYellowShadow);
+}
+
+.projects-circle-grow {
+  transform: scale(1) !important;
+  border-radius: 0% !important;
+  transition: all 4s ease-in-out;
+  overflow-y: visible !important;
+}
+
+#square {
+  height: 85vh;
+  width: 100vw;
+  // border-radius: 100%;
+  text-align: center;
+  transform: scale(0);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Dosis", sans-serif;
+  transition: scale height width 4s ease-in-out;
+
+}
+
+.project{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height:100%;
+h1{
+  font-size: 1.5em;
+  }
+  h2{
+    font-size: 1em;
+  }
+  button{
+background-color: var(--customBlue);
+color: var(--customYellow);
+height:50px;
+width:90px;
+border-radius: 5px;
+font-size: 100%;
+margin:10px;
+border:none
+
+  }
+  button:hover{
+    background-color: var(--customBlueShadow);
+    cursor:pointer;
+    transform: scale(0.9)
+  }
+  video{
+    height:45%;
+  }
+}
+.button-wrapper{
+  display: flex;
+  justify-content: center;
+}

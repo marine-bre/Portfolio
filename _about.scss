@@ -1,0 +1,48 @@
+#about-page-section {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.about-page-title {
+  fill: var(--customBlueShadow);
+}
+
+.about-color {
+  color: var(--customBlueShadow);
+}
+.about-color:hover {
+  color: var(--customBlue);
+  transform: scale(0.8);
+}
+
+.about-background-color {
+  background-color: var(--customBlue);
+}
+
+.circle-grow {
+  transform: scale(1);
+  transition: all 4s ease-in-out;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+#about-content {
+  align-items: center;
+  font-size: 1.1em;
+  h1 {
+    margin-top: 140px;
+  }
+}
+
+#portrait {
+  width: 65%;
+  position: relative;
+  right: 45%;
+  bottom:35%;
+}
