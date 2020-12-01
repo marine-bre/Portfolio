@@ -150,6 +150,10 @@ ul {
           justify-content: center;
 }
 
+#title {
+  margin-left: 20px;
+}
+
 .projects-page-title {
   fill: var(--customYellowShadow);
 }
@@ -245,6 +249,80 @@ ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  #main-page {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .numbers {
+    display: none;
+  }
+  .about {
+    -webkit-transform: rotate(0deg) !important;
+            transform: rotate(0deg) !important;
+    left: 30% !important;
+    top: 40% !important;
+  }
+  .projects {
+    left: 22% !important;
+    top: 40% !important;
+    height: 190% !important;
+  }
+  .contact {
+    left: 20% !important;
+  }
+  .circle {
+    display: none;
+  }
+  #portrait {
+    width: 45%;
+    right: 20%;
+    bottom: 5%;
+  }
+  .pink {
+    width: 100vw;
+    font-size: 0.9em;
+  }
+  #square {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .project {
+    width: 90vw;
+    line-height: 16px;
+  }
+  .project h1 {
+    margin: 5px;
+  }
+  .project h2 {
+    margin: 10px;
+  }
+  .project button {
+    height: 35px;
+    width: 70px;
+    font-size: 80%;
+  }
+  video {
+    display: none;
+  }
+  .footer {
+    text-align: center;
+  }
 }
 
 .site {
@@ -556,7 +634,6 @@ body {
   color: var(--customYellowShadow);
   fill: var(--customYellowShadow);
   height: 150%;
-  font-size: 5em;
   position: absolute;
   right: 30%;
   top: 10%;

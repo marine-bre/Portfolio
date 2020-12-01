@@ -2,6 +2,7 @@
 @import "_contact.scss";
 @import "_about.scss";
 @import "_projects.scss";
+@import "_mobile.scss";
 
 .site {
   overflow: hidden;
@@ -211,7 +212,6 @@ body {
   color: var(--customYellowShadow);
   fill: var(--customYellowShadow);
   height: 150%;
-  font-size: 5em;
   position: absolute;
   right: 30%;
   top: 10%;

@@ -1,0 +1,61 @@
+@media only screen and (max-width: 600px) {
+  #main-page {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+  }
+  .numbers{
+      display: none;
+  }
+  .about{
+    transform: rotate(0deg)!important;
+    left: 30% !important;
+    top: 40% !important;
+  }
+  .projects{
+    left: 22% !important;
+    top: 40% !important;
+    height:190% !important;
+  }
+  .contact {
+    left: 20% !important;
+  }
+  .circle {
+    display: none;
+  }
+  #portrait {
+    width: 45%;
+    right: 20%;
+    bottom:5%;
+  }
+  .pink{
+      width:100vw;
+      font-size: 0.9em;
+  }
+  #square {
+    flex-direction: column;
+    align-items: center;
+  }
+  .project {
+    width: 90vw;
+    line-height: 16px;
+    h1 {
+      margin: 5px;
+    }
+    h2{
+        margin: 10px;
+    }
+    button{
+        height:35px;
+        width:70px;
+        font-size: 80%;
+    }
+  }
+  video {
+    display: none;
+  }
+
+  .footer{
+      text-align: center;
+  }
+}

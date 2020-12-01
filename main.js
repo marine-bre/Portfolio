@@ -205,8 +205,8 @@ const one = ['The Spacesuit Store',
     'Built with React JS (with hooks), Node JS (Express, Nodemailer), and using Sass as a CSS preprocessor. <br/><br/> Features: Contact Form with validation that sends a reception email to the client and a notification to the site owner', './screenshots/space-mobile.mov', 'https://github.com/marine-bre/the-spacesuit-store', 'https://the-spacesuit-store.herokuapp.com/']
 
 const two = ['Movie Finder',
-    'An app that helps 2 people figure out which movie to watch depending on both their preferences',
-    'Built with React JS (with React hooks, React Portal), Node JS (Express, Socket.io), Bootstrap. <br/><br/> Features: Fetching data from a public API, using Socket.io rooms to ensure that only 2 players are connected together', './screenshots/movie.mov', 'https://github.com/marine-bre/movieFinder', 'https://movie-finder-app-react.herokuapp.com/']
+    'An app useful for couples who cannot find a movie to watch! After connecting to the app from their own devices and completing a quiz, the app will offer movie suggestions.',
+    'Built with React JS (with React hooks, React Portal), Node JS (Express, Socket.io), Bootstrap. <br/><br/> Features: Fetching data from a public API & using Socket.io rooms', './screenshots/movie.mov', 'https://github.com/marine-bre/movieFinder', 'https://movie-finder-app-react.herokuapp.com/']
 
 const three = ['TicTacToe',
     'A classic TicTacToe game against the computer with two levels of difficulty. Responsive for mobile screens.', 'Built with HTML5, CSS3, JavaScript', './screenshots/tictactoe-mobile.mov', 'https://github.com/marine-bre/nebulabender', 'https://marine-bre.github.io/nebulabender/menu.html']
