@@ -209,14 +209,14 @@ const project = ([titleContent, descriptionContent, techContent, video, link1, l
 
 const one = ['The Spacesuit Store',
     'A responsive single page application for a fictional store that sells spacesuits.',
-    'Built with React JS (with hooks), Node JS (Express, Nodemailer), and using Sass as a CSS preprocessor. <br/><br/> Features: Contact Form with validation that sends a reception email to the client and a notification to the site owner', './screenshots/space-mobile.mov', 'https://github.com/marine-bre/the-spacesuit-store', 'https://the-spacesuit-store.herokuapp.com/']
+    'Built with React.js (with hooks), Node JS (Express, Nodemailer), and using Sass as a CSS preprocessor. <br/><br/> Features: Contact Form with validation that sends a reception email to the client and a notification to the site owner', './screenshots/space-mobile.mov', 'https://github.com/marine-bre/the-spacesuit-store', 'https://the-spacesuit-store.herokuapp.com/']
 
 const two = ['Movie Finder',
     'An app useful for couples who cannot find a movie to watch! After connecting to the app from their own devices and completing a quiz, the app will offer movie suggestions.',
-    'Built with React JS (with React hooks, React Portal), Node JS (Express, Socket.io), Bootstrap. <br/><br/> Features: Fetching data from a public API & using Socket.io rooms', './screenshots/movie.mov', 'https://github.com/marine-bre/movieFinder', 'https://movie-finder-app-react.herokuapp.com/']
+    'Built with React.js (with React hooks, React Portal), Node.js (Express, Socket.io), Bootstrap. <br/><br/> Features: Fetching data from a public API & using Socket.io rooms', './screenshots/movie.mov', 'https://github.com/marine-bre/movieFinder', 'https://movie-finder-app-react.herokuapp.com/']
 
 const three = ['TicTacToe',
-    'A classic TicTacToe game against the computer with two levels of difficulty. Responsive for mobile screens.', 'Built with HTML5, CSS3, JavaScript', './screenshots/tictactoe-mobile.mov', 'https://github.com/marine-bre/nebulabender', 'https://marine-bre.github.io/nebulabender/menu.html']
+    'A classic TicTacToe game against the computer with two levels of difficulty. Responsive for mobile screens.', 'Built with HTML5, CSS3, Vanilla JavaScript', './screenshots/tictactoe-mobile.mov', 'https://github.com/marine-bre/nebulabender', 'https://marine-bre.github.io/nebulabender/menu.html']
 
 const first = project(one)
 const second = project(two)
