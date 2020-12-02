@@ -38,7 +38,7 @@ html{
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: var(--customPink);
+  background-color: $customPink;
   z-index: 100;
   transition: all 2s;
 }
@@ -47,7 +47,7 @@ html{
   position: absolute;
   top: 0;
   right: 0;
-  background-color: var(--customBlue);
+  background-color: $customBlue;
   z-index: 100;
   transition: all 2s;
 }
@@ -56,7 +56,7 @@ html{
   position: absolute;
   bottom: 0;
   right: 0;
-  background-color: var(--customYellow);
+  background-color: $customYellow;
   z-index: 100;
   transition: all 2s;
 }
@@ -111,11 +111,11 @@ body {
 @keyframes section-float1 {
   0% {
     transform: translate(0%);
-    box-shadow: -3px 3px 3px var(--backgroundShadow);
+    box-shadow: -3px 3px 3px $backgroundShadow;
   }
   50% {
     transform: translate(2%, -2%);
-    box-shadow: -8px 8px 3px var(--backgroundShadow);
+    box-shadow: -8px 8px 3px $backgroundShadow;
   }
 }
 .section-float2 {
@@ -125,11 +125,11 @@ body {
 @keyframes section-float2 {
   0% {
     transform: translate(0%);
-    box-shadow: -3px 3px 3px var(--backgroundShadow);
+    box-shadow: -3px 3px 3px $backgroundShadow;
   }
   50% {
     transform: translate(-2%, 2%);
-    box-shadow: -3px 3px 3px var(--backgroundShadow);
+    box-shadow: -3px 3px 3px $backgroundShadow;
   }
 }
 .section-float3 {
@@ -139,58 +139,58 @@ body {
 @keyframes section-float3 {
   0% {
     transform: translate(0%);
-    box-shadow: -1px 1px 3px var(--backgroundShadow);
+    box-shadow: -1px 1px 3px $backgroundShadow;
   }
   50% {
     transform: translate(2%, 1%);
-    box-shadow: -6px -6px 3px var(--backgroundShadow);
+    box-shadow: -6px -6px 3px $backgroundShadow;
   }
 }
 
 #section1 {
-  background-color: var(--customPink);
+  background-color: $customPink;
   grid-area: 2/1/4/2;
-  box-shadow: -3px 3px 3px var(--backgroundShadow);
+  box-shadow: -3px 3px 3px $backgroundShadow;
   // transform: translate(0%, 0%);
 }
 
 #section2 {
-  background-color: var(--customBlue);
+  background-color: $customBlue;
   grid-area: 2/2/3/4;
-  box-shadow: -4px 3px 3px var(--backgroundShadow);
+  box-shadow: -4px 3px 3px $backgroundShadow;
 }
 #section3 {
-  background-color: var(--customYellow);
+  background-color: $customYellow;
   grid-area: 3/2/5/4;
-  box-shadow: -1px 1px 3px var(--backgroundShadow);
+  box-shadow: -1px 1px 3px $backgroundShadow;
 }
 
 .blue {
-  fill: var(--customBlue);
+  fill: $customBlue;
 }
 
 .blue-shadow {
-  fill: var(--customBlueShadow);
+  fill: $customBlueShadow;
 }
 
 .yellow {
-  fill: var(--customYellow);
+  fill: $customYellow;
 }
 
 .yellow-shadow {
-  fill: var(--customYellowShadow);
+  fill: $customYellowShadow;
 }
 .pink {
-  fill: var(--customPink);
-  color: var(--customPink);
+  fill: $customPink;
+  color: $customPink;
 }
 
 .pink-shadow {
-  fill: var(--customDarkPink);
+  fill: $customDarkPink;
 }
 
 .shadow {
-  fill: var(--customShadow);
+  fill: $customShadow;
   border-radius: 50%;
 }
 .float1-shadow {
@@ -209,12 +209,12 @@ body {
 }
 
 .about a {
-  color: var(--customBlue);
+  color: $customBlue;
 }
 
 .projects {
-  color: var(--customYellowShadow);
-  fill: var(--customYellowShadow);
+  color: $customYellowShadow;
+  fill: $customYellowShadow;
   height: 150%;
   position: absolute;
   right: 30%;
@@ -222,18 +222,18 @@ body {
 }
 
 .projects a {
-  color: var(--customYellow);
+  color: $customYellow;
 }
 
 .contact {
   position: absolute;
   left: 30%;
   top: 20%;
-  fill: var(--customDarkPink);
+  fill: $customDarkPink;
 }
 
 .contact a {
-  color: var(--customDarkPink);
+  color: $customDarkPink;
 }
 
 .category {

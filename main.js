@@ -41,7 +41,6 @@ document.addEventListener('mousemove', (e) => {
 //expanding sections onclick
 
 let home = document.getElementById('main-page')
-
 let closes = document.getElementsByClassName('close')
 let categories = document.getElementsByClassName('category')
 

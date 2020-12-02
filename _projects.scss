@@ -11,19 +11,19 @@
 }
 
 .projects-page-title {
-  fill: var(--customYellowShadow);
+  fill: $customYellowShadow;
 }
 
 .projects-color {
-  color: var(--customYellowShadow);
+  color: $customYellowShadow;
 }
 .projects-color:hover {
-  color: var(--customDarkYellowShadow);
+  color: $customDarkYellowShadow;
   transform: scale(0.8);
 }
 
 .projects-background-color {
-  background-color: var(--customYellowShadow);
+  background-color: $customYellowShadow;
 }
 
 .projects-circle-grow {
@@ -59,8 +59,8 @@ h1{
     font-size: 1em;
   }
   button{
-background-color: var(--customBlue);
-color: var(--customYellow);
+background-color: $customBlue;
+color: $customYellow;
 height:50px;
 width:90px;
 border-radius: 5px;
@@ -70,7 +70,7 @@ border:none
 
   }
   button:hover{
-    background-color: var(--customBlueShadow);
+    background-color: $customBlueShadow;
     cursor:pointer;
     transform: scale(0.9)
   }

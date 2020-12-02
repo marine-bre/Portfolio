@@ -8,18 +8,18 @@
 }
 
 .contact-page-title {
-  fill: var(--customDarkPink);
+  fill: $customDarkPink;
 }
 
 .contact-color {
-  color: var(--customDarkPink);
+  color: $customDarkPink;
 }
 .contact-color:hover {
-  color: var(--customDarkPinkShadow);
+  color: $customDarkPinkShadow;
   transform: scale(0.8);
 }
 .contact-background-color {
-  background-color: var(--customDarkPink);
+  background-color: $customDarkPink;
 }
 
 .content {
@@ -29,10 +29,10 @@
     text-decoration: none;
 
     svg {
-      fill: var(--customBlueShadow);
+      fill: $customBlueShadow;
     }
     p {
-      color: var(--customBlueShadow);
+      color: $customBlueShadow;
       font-family: "Dosis", sans-serif;
       font-size: 1.5em;
       padding-top: -5px;

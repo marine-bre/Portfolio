@@ -8,19 +8,19 @@
 }
 
 .about-page-title {
-  fill: var(--customBlueShadow);
+  fill: $customBlueShadow;
 }
 
 .about-color {
-  color: var(--customBlueShadow);
+  color: $customBlueShadow;
 }
 .about-color:hover {
-  color: var(--customBlue);
+  color: $customBlue;
   transform: scale(0.8);
 }
 
 .about-background-color {
-  background-color: var(--customBlue);
+  background-color: $customBlue;
 }
 
 .circle-grow {
