@@ -4,6 +4,11 @@
     flex-direction: column;
     align-items: center;
   }
+  header{
+    svg{
+      margin-left: 20px;
+    }
+  }
   .numbers{
       display: none;
   }
